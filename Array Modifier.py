@@ -36,7 +36,9 @@ while i <= 1:
     array = [13, 5, 59, 65, 46, 72, 62, 87, 6, 98]
     print("Array: ",array)
 # Display Menu
-
+    print("Menu: \n 1 -> Add an element \n 2 -> Insert an element \n 3 -> Modify an element")
+    print(" 4 -> Delete an element\n 5 -> Arrange in ascending order \n 6 -> Arrange in descending order")
+    print(" 7 -> Quit")
 # Select item
 
 # perform selected option
