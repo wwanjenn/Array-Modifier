@@ -41,27 +41,25 @@ while i <= 1:
     print(" 4 -> Delete an element\n 5 -> Arrange in ascending order \n 6 -> Arrange in descending order")
     print(" 7 -> Quit")
 # Select item
-    whatDo = input(print("What do you want to do? (1-7): "))
-    
+    whatDo = int(input("What do you want to do? (1-7): "))
     if whatDo == 1:
-        whatAdd = input(print("Enter Element you want to add: "))
+        whatAdd = int(input("Enter Element you want to add: "))
     if whatDo == 2:
-        whatIns = input(print("Enter Element you want to insert: "))
-        whereIns = input(print("Enter the index you want to insert: "))
+        whatIns = int(input("Enter Element you want to insert: "))
+        whereIns = int(input("Enter the index you want to insert: "))
     if whatDo == 3:
-        whereMod = input(print("Enter the index you want to modify: "))
-        whatMod = input(print("Enter Element you want it to be: "))
+        whereMod = int(input("Enter the index you want to modify: "))
+        whatMod = int(input("Enter Element you want it to be: "))
     if whatDo == 4:
-        whereDel = input(print("Enter the index you want to delete: "))
+        whereDel = int(input("Enter the index you want to delete: "))
     if whatDo == 5:
         print("Arranging in ascending order....")
     if whatDo == 6:
         print("Arranging in descending order....")
     if whatDo == 7:
-        confirm = input(print("Are you sure? (y/n): "))
+        confirm = input(("Are you sure? (y/n): "))
     else:
         print("Please enter a valid number")
-
 # perform selected option
     if whatDo == 1:
         array.append(whatAdd)
@@ -78,5 +76,6 @@ while i <= 1:
         array.reverse()
     if whatDo == 7:
         if confirm == "y":
-            i + 1
+            break
+    print()
 
