@@ -62,5 +62,20 @@ while i <= 1:
         print("Please enter a valid number")
 
 # perform selected option
-
+    if whatDo == 1:
+        array.append(whatAdd)
+    if whatDo == 2:
+        array.insert(whereIns, whatIns)
+    if whatDo == 3:
+        array[whereMod] = whatMod    
+    if whatDo == 4:
+        array.pop(whereDel)
+    if whatDo == 5:
+        array.sort()
+    if whatDo == 6:
+        array.sort()
+        array.reverse()
+    if whatDo == 7:
+        if confirm == "y":
+            i + 1
 # display new array
