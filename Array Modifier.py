@@ -30,9 +30,11 @@
 # This is the new array: Array: [1, 4, 3, 4, 5, 6 ,2 ,56, 200]
 
 # Loop
-
+i = 0
+while i <= 1:
 # Initial Content
-
+    array = [13, 5, 59, 65, 46, 72, 62, 87, 6, 98]
+    print("Array: ",array)
 # Display Menu
 
 # Select item
